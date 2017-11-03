@@ -26,7 +26,7 @@ ratings:
   paths:
   - "**.php"
   - "**.md"
-exclude_paths:
+exclude_patterns:
 - **/vendor/**/*
 - **/.idea/**/*
 - tests/
