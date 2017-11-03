@@ -1,4 +1,5 @@
-engines:
+version: "2"
+plugins:
   phpcodesniffer:
     enabled: true
     config:
@@ -25,7 +26,7 @@ ratings:
   paths:
   - "**.php"
   - "**.md"
-exclude_paths:
-- **/vendor/**/*
-- **/.idea/**/*
-- tests/
+exclude_patterns:
+- "**/vendor/**/*"
+- "**/.idea/**/*"
+- "tests/"
